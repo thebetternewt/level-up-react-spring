@@ -19,7 +19,7 @@ const App = () => {
   const navAnimation = useSpring({
     transform: isNavOpen
       ? `translate3d(0,0,0) scale(1) rotate(0deg)`
-      : `translate3d(400px,0,0) scale(1) rotate(0deg)`,
+      : `translate3d(400px,0,0) scale(0.5) rotate(20deg)`,
     // config: config.wobbly,
   });
 

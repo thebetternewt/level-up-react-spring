@@ -41,7 +41,7 @@ const ModalWrapper = () => {
   const transition = useTransition(on, null, {
     from: { opacity: 0, x: 0, y: -40, rotate: 0 },
     enter: { opacity: 1, x: 0, y: 0, rotate: 0 },
-    leave: { opacity: 0, x: 400, y: 0, rotate: 90 },
+    leave: { opacity: 0, x: -400, y: 0, rotate: 90 },
   });
 
   const pointerEvents = on ? 'all' : 'none';
